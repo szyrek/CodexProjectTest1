@@ -1,0 +1,1 @@
+Write user-facing documentation in `README.md` describing how to install the library, run the demo, and customize update steps with delta time. Emphasize convention over configuration and minimal setup.

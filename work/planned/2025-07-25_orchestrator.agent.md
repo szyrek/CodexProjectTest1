@@ -1,0 +1,1 @@
+Create roles for `ts_dev` and `qa_engineer`. Each role should have a preprompt that explains its responsibilities for building a TypeScript 3D physics library that uses variable delta t and is optimized for space simulator use. After creating the role files under `roles/request/`, move them to `roles/hired/` once onboarded.

@@ -1,0 +1,1 @@
+Create basic 3D vector and rigid body classes. Implement an update loop that accepts a variable delta time parameter for integration. The code should be concise and documented with TypeScript types so it's easy to use for space simulators.
