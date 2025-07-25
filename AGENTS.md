@@ -20,6 +20,13 @@ This file defines how Codex orchestrates roles within this repository. For the s
 - Role switching into the Orchestrator is disallowed; it only runs when explicitly requested.
 - The Orchestrator may read any file but only edits workflow docs and governance files.
 
+
+## Hired Roles
+- **orchestrator** - coordinates tasks and enforces workflow rules.
+- **pm** - gathers requirements and manages the backlog.
+- **ts_dev** - implements the TypeScript physics library and demo using variable delta time.
+- **qa_engineer** - writes automated Jest tests with high coverage.
+
 ## Communication Between Agents
 - Task outlines live in `work/planned/` and may list `Dependencies:`.
 - Agents communicate via files in `messages/inbox/`, moving them to `messages/read/` after handling.
