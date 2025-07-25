@@ -24,6 +24,9 @@ This document records completed features after each task is fulfilled. Move the 
 - Provided npm scripts for build, test, and lint.
 
 ## 2025-07-30 - Version 0.0.6
+- Implemented `Vector3` subtract and scale operations.
+- Added `RigidBody` class with delta-time based integration.
+- Created Jest tests covering new physics features.
 - Added CI workflow running lint, tests, and doc parity checks.
 - Configured Jest coverage thresholds at 90% line and 80% branch.
 - Documented testing strategy using `npm test`.
