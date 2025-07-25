@@ -31,7 +31,7 @@ Tasks begin in `work/planned/`. When a role starts work it moves the task file t
 
 ## Continuous Integration
 - CI uses GitHub Actions (`.github/workflows/ci.yml`).
-- Specific lint, test, and coverage steps are defined by project requirements gathered by the PM role.
+- The workflow runs `npm run lint` and `npm test` with coverage enabled.
 - A doc parity check runs `scripts/doc_parity_check.sh` to ensure updates to roles or CI also modify both docs.
 
 ## Getting Started

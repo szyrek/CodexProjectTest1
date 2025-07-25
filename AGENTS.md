@@ -33,7 +33,8 @@ This file defines how Codex orchestrates roles within this repository. For the s
 - Example files in those folders demonstrate the format and are not active work.
 
 ## Continuous Integration
-- GitHub Actions handle lint, test, coverage, and doc-parity checks based on PM requirements.
+- GitHub Actions run `npm run lint` and `npm test` with coverage reporting.
+- The workflow also executes `scripts/doc_parity_check.sh`.
 - Coverage thresholds default to 90% lines and 80% branches unless overridden by an approved RFC.
 
 ## Documentation Structure
