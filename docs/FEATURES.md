@@ -17,3 +17,8 @@ This document records completed features after each task is fulfilled. Move the 
 ## 2025-07-28 - Version 0.0.4
 - Onboarded `ts_dev` and `qa_engineer` roles for the TypeScript physics project.
 - Moved their initial tasks to `work/in_progress/`.
+
+## 2025-07-29 - Version 0.0.5
+- Created initial Node.js project using TypeScript.
+- Added Jest configuration and sample vector class with test.
+- Provided npm scripts for build, test, and lint.
