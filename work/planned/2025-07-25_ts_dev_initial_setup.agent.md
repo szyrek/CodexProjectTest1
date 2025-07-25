@@ -1,0 +1,1 @@
+Initialize a new Node.js project using TypeScript. Include minimal configuration files: `package.json`, `tsconfig.json`, and Jest setup for testing. Provide npm scripts for build, test, and lint. Keep defaults simple so users can get started with no extra setup.
