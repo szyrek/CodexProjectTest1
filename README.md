@@ -1,2 +1,3 @@
-# CodexProjectTest1
-Test of CodexProject template
+# Codex Project Template Test
+
+This repository is a test of CodexProject template.
