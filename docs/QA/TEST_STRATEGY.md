@@ -1,7 +1,11 @@
 # Test Strategy
 
-Testing requirements will be defined once the project stack is chosen. Default goal is 90% line coverage and 80% branch coverage.
+Testing uses Jest with `ts-jest`. The default goal is 90% line coverage and 80% branch coverage.
 
-## Example
+Run tests locally with:
 
-If using Python, run `pytest --cov` and ensure the reported coverage meets the thresholds above.
+```bash
+npm test
+```
+
+CI will fail if coverage falls below the configured thresholds.
