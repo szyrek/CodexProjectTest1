@@ -22,3 +22,8 @@ This document records completed features after each task is fulfilled. Move the 
 - Created initial Node.js project using TypeScript.
 - Added Jest configuration and sample vector class with test.
 - Provided npm scripts for build, test, and lint.
+
+## 2025-07-30 - Version 0.0.6
+- Added CI workflow running lint, tests, and doc parity checks.
+- Configured Jest coverage thresholds at 90% line and 80% branch.
+- Documented testing strategy using `npm test`.
