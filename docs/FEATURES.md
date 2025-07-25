@@ -13,3 +13,7 @@ This document records completed features after each task is fulfilled. Move the 
 
 ## 2025-07-27 - Version 0.0.3
 - Added `scripts/bootstrap.sh` for easy setup of new Codex projects.
+
+## 2025-07-28 - Version 0.0.4
+- Onboarded `ts_dev` and `qa_engineer` roles for the TypeScript physics project.
+- Moved their initial tasks to `work/in_progress/`.
